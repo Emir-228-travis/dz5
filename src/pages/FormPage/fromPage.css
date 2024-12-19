@@ -1,0 +1,58 @@
+.name-list-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.input-section button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.name-list {
+    margin-top: 20px;
+}
+
+.name-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name-item span {
+    margin-right: 10px;
+}
+
+.name-item button {
+    padding: 5px 10px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.name-item button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
